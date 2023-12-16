@@ -5,7 +5,7 @@ const client = new Client({
   shards: "auto"
 });
 const config = require("./src/config.js");
-const { readdirSync } = require("node:fs");
+const { readdirSync } = require("fs");
 const moment = require("moment");
 
 let token = config.token;
